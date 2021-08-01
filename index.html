@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Please sign up</h2>
+    <input type="text" placeholder="First name" id="firstName" class="parametr">
+    <p class="firstAttention attention" hidden>PLease provide a valid First name.</p>
+    <input type="text" placeholder="Last name" id="lastName" class="parametr">
+    <p class="lastAttention attention" hidden>PLease provide a valid Last name.</p>
+    <input type="email" placeholder="Email adress" id="email" class="parametr">
+    <p class="email attention" hidden>PLease provide a valid Email adress.</p>
+    <input type="text" placeholder="Password" id="password" class="parametr">
+    <p class="password attention" hidden>PLease provide a valid password.</p>
+    <input type="checkbox" id="agree" disabled>I agree with Privacy policy
+    <input type="button" value="Sign up" id="signUp" class="parametr" disabled>
+  </div>
+
+  <div class="grey" hidden>
+    <div class="container2">
+      <div class="green">
+        <img class="tick" src="images/check-circle.svg" width="126px" height="126px" alt="">
+      </div>
+      <div class="white">
+        <h2>Great!</h2>
+        <p>Your account has been created successfully.</p>
+        <button id="startExploring">Start Exploring -></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

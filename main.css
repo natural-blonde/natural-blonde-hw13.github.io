@@ -1,0 +1,115 @@
+
+@import url('fonts.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(224, 217, 217);
+  font-family: 'Roboto', sans-serif;
+  font-variation-settings: 'wght' 300;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container{
+  margin: auto;
+  width: 400px;
+  padding-top: 175px;
+  position: relative;
+}
+
+.parametr {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: rgb(224, 217, 217);
+}
+
+.attention {
+  background-color: rgb(228, 59, 59);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+#signUp{
+  background-color: blue;
+  color: white;
+}
+
+.container2{
+  margin: auto;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.green{
+  background-color: green;
+  width: 400px;
+  height: 150px;
+}
+.white{
+  padding-top: 30px;
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 175px;
+}
+
+h2{
+  margin-top: 0;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: orange;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.grey{
+  background-color: rgba(128, 128, 128, 0.4);
+  padding-top: 200px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  margin-top: -607px;
+}
+
+.tick{
+  margin-left: 137px;
+  margin-top: 12px;
+}
+
+.hide{
+  overflow: hidden;
+}
+
+.show{
+  overflow: visible;
+}
